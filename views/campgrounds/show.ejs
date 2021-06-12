@@ -7,15 +7,7 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>All Campgrounds</h1>
-    <ul>
-      <% for (let campground of campgrounds) { %>
-      <li>
-        <a href="/campgrounds/<%= campground._id %> "
-          ><%= campground.title %>
-        </a>
-      </li>
-      <% } %>
-    </ul>
+    <h1><%= campground.title %></h1>
+    <h2><%= campground.location %></h2>
   </body>
 </html>
