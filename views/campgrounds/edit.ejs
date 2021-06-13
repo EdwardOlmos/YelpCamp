@@ -64,10 +64,14 @@
           <%= campground.description %> </textarea
         >
       </div>
-      <div class="mb-3">
-        <button class="btn-info">Update Campground</button>
+      <div class="mb-3 d-inline">
+        <button class="btn btn-info">Update Campground</button>
       </div>
+      <a
+        class="card-link btn btn-secondary d-inline"
+        href="/campgrounds/<%= campground._id %>"
+        >Back to Campground</a
+      >
     </form>
-    <a href="/campgrounds/<%= campground._id %> ">Back to Campground</a>
   </div>
 </div>
