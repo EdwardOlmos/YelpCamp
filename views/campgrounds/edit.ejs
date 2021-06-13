@@ -7,10 +7,7 @@
     <title>Edit Campground</title>
   </head>
   <body>
-    <form
-      action="/campgrounds/<%= campground._id %>?_method=PUT "
-      method="POST"
-    >
+    <form action="/campgrounds<%= campground._id %>?_method=PUT " method="POST">
       <div>
         <label for="title">Title</label>
         <input
