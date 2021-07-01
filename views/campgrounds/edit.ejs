@@ -1,7 +1,7 @@
 <% layout('layouts/boilerplate') %>
 <div class="row">
   <h1 class="text-center">Edit Campground</h1>
-  <div class="col-6 offset-3">
+  <div class="col-md-6 offset-md-3 mb-5">
     <form
       action="/campgrounds/<%= campground._id %>?_method=PUT "
       method="POST"
@@ -93,14 +93,14 @@
         <label for="image-<%= i %>">Delete?</label>
         <% }) %>
       </div>
-      <div class="mb-3 d-inline">
+      <div class="d-grid gap-2 mx-auto mt-4">
         <button class="btn btn-info">Update Campground</button>
+        <a
+          class="card-link btn btn-secondary d-inline"
+          href="/campgrounds/<%= campground._id %>"
+          >Back to Campground</a
+        >
       </div>
-      <a
-        class="card-link btn btn-secondary d-inline"
-        href="/campgrounds/<%= campground._id %>"
-        >Back to Campground</a
-      >
     </form>
   </div>
 </div>
