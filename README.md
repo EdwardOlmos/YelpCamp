@@ -37,7 +37,7 @@ To run locally, follow the steps below
 ### Installation
 * Clone Repo
 ```
-git clone git@github.com:EdwardOlmos/visualization-app.git
+git clone git@github.com:EdwardOlmos/YelpCamp.git
 ```
 
 * Install dependencies
