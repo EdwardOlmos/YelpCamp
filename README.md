@@ -19,6 +19,7 @@ Tools/Tech | Description
 [MongoDB Cloud (NoSQL)](https://www.mongodb.com/cloud) | MongoDB Atlas is a fully managed cloud database for modern applications. 
 [EJS](https://ejs.co/) | A simple templating language that generates HTML markup with plain JavaScript.
 [Cloudinary API](https://cloudinary.com/documentation/how_to_integrate_cloudinary) | Cloudinary provides an enterprise-grade, media experience platform for all rich media types where it's used in this project for image upload.
+[Mapbox](https://www.mapbox.com/maps) | Mapbox provides some free quality maps to pinpoint locations around the world
 
 ## Design Patterns and Best Practices Used
 * AJAX and single page app design
@@ -33,6 +34,8 @@ To run locally, follow the steps below
 * Node.js
 * npm
 * MongoDB
+* Cloudinary API
+* Mapbox API
 
 ### Installation
 * Clone repo
@@ -44,8 +47,14 @@ git clone git@github.com:EdwardOlmos/YelpCamp.git
 npm install
 ```
 * Create a `.env` file containing the following:
-Field Name | 
----------- | --------
+
+Field Name | Description
+---------- | -----------
+CLOUDINARY_CLOUD_NAME | Your Cloudinary Cloud Name
+CLOUDINARY_KEY | Your Cloudinary API Key
+CLOUDINARY_SECRET | Your Cloudinary API Secret
+MAPBOX_TOKEN | Your Mapbox API Access Token - Default Public Token
+DB_URL | Your MongoDB Cluster Config - E.g. mongodb+srv://user_01:<password>@cluster0.7qsrj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
 
 * To run application
 ```
