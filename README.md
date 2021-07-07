@@ -35,12 +35,19 @@ To run locally, follow the steps below
 * MongoDB
 
 ### Installation
-* Clone Repo
+* Clone repo
 ```
 git clone git@github.com:EdwardOlmos/YelpCamp.git
 ```
-
 * Install dependencies
 ```
 npm install
+```
+* Create a `.env` file containing the following:
+Field Name | 
+---------- | --------
+
+* To run application
+```
+node app.js
 ```
