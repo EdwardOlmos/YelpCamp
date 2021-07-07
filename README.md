@@ -26,3 +26,21 @@ Tools/Tech | Description
 * Protection against common security issues - SQL Injection, XSS
 * Use of Cookies and Sessions
 
+## Project Setup
+To run locally, follow the steps below
+
+### Prerequisites
+* Node.js
+* npm
+* MongoDB
+
+### Installation
+* Clone Repo
+```
+git clone git@github.com:EdwardOlmos/visualization-app.git
+```
+
+* Install dependencies
+```
+npm install
+```
