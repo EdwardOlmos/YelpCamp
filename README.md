@@ -48,7 +48,7 @@ npm install
 ```
 * Create a `.env` file containing the following:
 
-Field Name | Description
+Variable Name | Value
 ---------- | -----------
 CLOUDINARY_CLOUD_NAME | Your Cloudinary Cloud Name
 CLOUDINARY_KEY | Your Cloudinary API Key
