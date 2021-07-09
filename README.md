@@ -18,14 +18,8 @@ Tools/Tech | Description
 [ExpressJS](https://expressjs.com/) | Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications, including RESTful APIs.
 [MongoDB Cloud (NoSQL)](https://www.mongodb.com/cloud) | MongoDB Atlas is a fully managed cloud database for modern applications. 
 [EJS](https://ejs.co/) | A simple templating language that generates HTML markup with plain JavaScript.
-[Cloudinary API](https://cloudinary.com/documentation/how_to_integrate_cloudinary) | Cloudinary provides an enterprise-grade, media experience platform for all rich media types where it's used in this project for image upload.
+[Cloudinary](https://cloudinary.com/documentation/how_to_integrate_cloudinary) | Cloudinary provides an enterprise-grade, media experience platform for all rich media types where it's used in this project for image upload.
 [Mapbox](https://www.mapbox.com/maps) | Mapbox provides some free quality maps to pinpoint locations around the world
-
-## Design Patterns and Best Practices Used
-* AJAX and single page app design
-* Authentication and Authorization
-* Protection against common security issues - SQL Injection, XSS
-* Use of Cookies and Sessions
 
 ## Project Setup
 To run locally, follow the steps below
@@ -47,6 +41,10 @@ git clone git@github.com:EdwardOlmos/YelpCamp.git
 npm install
 ```
 * Create a `.env` file containing the following:
+
+### Setup
+
+## Environment Variables
 
 Variable Name | Value
 ---------- | -----------
